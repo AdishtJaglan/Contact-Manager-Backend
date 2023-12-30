@@ -1,15 +1,15 @@
 const express = require("express")
 const router = express.Router();
 
-router.post("/register", (res, req) => {
+router.post("/register", (req, res) => {
     res.json({ message: "Register the user." });
 });
 
-router.post("/login", (res, req) => {
+router.post("/login", (req, res) => {
     res.json({ message: "Login user." });
 });
 
-router.post("/current", (res, req) => {
+router.post("/current", (req, res) => {
     res.json({ message: "Current user information." });
 });
 
